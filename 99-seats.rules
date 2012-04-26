@@ -1,0 +1,2 @@
+SUBSYSTEM=="input", ENV{ID_INPUT.tags}="input_default"
+SUBSYSTEM=="input", ENV{ID_MODEL_ID}=="c50e", ENV{ID_INPUT.tags}="input_right"

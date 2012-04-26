@@ -1,0 +1,2 @@
+#!/bin/bash
+su - -- xbmc -l -c 'startx -- -nolisten tcp -config xorg-xmbc.conf -sharevts -novtswitch </dev/null >/dev/null 2>&1'
